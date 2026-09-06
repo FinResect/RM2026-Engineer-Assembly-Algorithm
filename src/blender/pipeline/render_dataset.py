@@ -186,7 +186,7 @@ def main(argv=None):
 
     _render_dev = cfg["render"].get("device", "GPU").upper()
     if _render_dev == "GPU":
-        def _enable_gpu(device_type="OPTIX"):
+        def _enable_gpu(device_type="CUDA"):
             prefs = bpy.context.preferences
             cp = prefs.addons["cycles"].preferences
             cp.refresh_devices()
@@ -200,7 +200,7 @@ def main(argv=None):
             cp.compute_device_type = device_type
             bpy.context.scene.cycles.device = "GPU"
         try:
-            _enable_gpu("OPTIX")
+            _enable_gpu("CUDA")
         except Exception as e:
             sys.stdout.write(f"[render] WARN: GPU setup failed ({e})\n")
     else:

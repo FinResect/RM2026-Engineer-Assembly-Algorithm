@@ -241,3 +241,5 @@ __marimo__/
 /src/nn/yolo/*.xml
 /src/nn/yolo/*.bin
 /yolo*.pt
+
+absolute

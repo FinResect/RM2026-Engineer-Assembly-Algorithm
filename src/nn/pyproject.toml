@@ -20,8 +20,8 @@ dependencies = [
     "pip>=24",
     "setuptools>=69,<81",
     "tensorboard>=2.15",
-    "torch==2.11.0",
-    "torchvision==0.26.0",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
     "ultralytics==8.4.46",
     "wheel>=0.43",
     "xtcocotools==1.14.3",
@@ -45,7 +45,7 @@ default = true
 
 [[tool.uv.index]]
 name = "pytorch-cu130"
-url = "https://download.pytorch.org/whl/cu130"
+url = "https://download.pytorch.org/whl/cu124"
 explicit = true
 
 [tool.uv.sources]
