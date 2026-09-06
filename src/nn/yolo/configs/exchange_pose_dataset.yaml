@@ -1,6 +1,6 @@
 # Expected local layout after downloading the pose dataset.
-train: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/images/train
-val: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/images/val
+train: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/rendered_assets_compose/images/train
+val: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/rendered_assets_compose/images/val
 
 kpt_shape: [12, 3]
 flip_idx: [1, 0, 3, 2, 4, 11, 10, 9, 8, 7, 6, 5]

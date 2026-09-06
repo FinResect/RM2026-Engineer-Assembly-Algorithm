@@ -242,4 +242,20 @@ __marimo__/
 /src/nn/yolo/*.bin
 /yolo*.pt
 
-absolute
+absolute/exchange_detect/*
+!absolute/exchange_detect/.gitkeep
+
+absolute/exchange_pose/rendered_assets_compose/*
+!absolute/exchange_pose/rendered_assets_compose/.gitkeep
+
+absolute/predict/*
+!absolute/predict/.gitkeep
+
+absolute/rendered_assets/*
+!absolute/rendered_assets/.gitkeep
+
+absolute/val_result/*
+!absolute/val_result/.gitkeep
+
+absolute/visualized_samples/*
+!absolute/visualized_samples/.gitkeep
