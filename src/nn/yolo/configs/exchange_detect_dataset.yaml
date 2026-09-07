@@ -1,6 +1,6 @@
 # Expected local layout after converting the pose dataset with pose2detect.py.
-train: <path-to-your-dataset>/images/train
-val: <path-to-your-dataset>/images/val
+train: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/rendered_assets_compose/images/train
+val: /mnt/workspace/RM2026-Engineer-Assembly-Algorithm/absolute/exchange_pose/rendered_assets_compose/images/val
 
 names:
   0: pillar
