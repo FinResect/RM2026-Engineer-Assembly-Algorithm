@@ -259,3 +259,9 @@ absolute/val_result/*
 
 absolute/visualized_samples/*
 !absolute/visualized_samples/.gitkeep
+
+absolute/annotations/*
+!absolute/annotations/.gitkeep
+
+/src/nn/hrnet/runs/
+export
